@@ -104,16 +104,16 @@ ul li:before {
     background-image: url(../images/gradient2.png), url(../images/watch.png);
 }
 
-.motivation-title
-{
+.motivation-title {
     padding-top: 80px;
     padding-left: 60px;
     padding-right: 500px;
 }
-.motivation-call
-{
+
+.motivation-call {
     padding-left: 60px;
 }
+
 .btn-secondary {
     color: #FD6E0A;
     border-radius: 5px;
@@ -121,4 +121,25 @@ ul li:before {
     background: white;
     height: auto;
     padding: 18px 35px;
+}
+
+.footer-class {
+    background-color: black;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    gap: 331px;
+    margin: 0px 230px;
+}
+
+.subscribe input {
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 18px 10px;
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+
 }
