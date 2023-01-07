@@ -1,17 +1,30 @@
-.header-class
-{
-    height: 880px;
+
+
+.header-class {
+    height: 800px;
     width: 1350px;
     background-image: url(../images/banner/banner1.png);
 }
 
-.header-item
-{
+.header-item {
     background-size: cover;
     text-align: right;
     margin-right: 120px;
     padding-top: 300px;
 }
+
+.title-class {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 950px;
+}
+
+.description-class {
+    padding-left: 820px;
+    font-weight: 400;
+}
+
 .btn-primary {
     background: #FD6E0A;
     border-radius: 5px;
@@ -19,4 +32,81 @@
     color: white;
     height: 64px;
     padding: 18px 35px;
+}
+
+.banner-section
+{
+    display: flex;
+    margin: 180px 200px;
+    justify-content: space-around;
+    gap: 87px;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li:before {
+    content: '✓';
+    color: green;
+}
+
+.banner-text-details
+{
+    margin-top: 200px;
+}
+
+.plannings
+{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    font-weight: bold;
+}
+
+
+.section-title-under {
+    text-align: center;
+    font-weight: 900;
+}
+
+.skills-container {
+    margin: 0px 270px;
+    display: flex;
+    gap: 86px;
+    margin-bottom: 40px;
+}
+
+.skill {
+    border-radius: 55px;
+}
+
+.skill-title
+{
+    font-weight: bold;
+    padding: 20px 10px;
+}
+.skill-description
+{
+
 }
