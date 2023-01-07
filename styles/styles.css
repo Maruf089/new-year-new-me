@@ -1,0 +1,22 @@
+.header-class
+{
+    height: 880px;
+    width: 1350px;
+    background-image: url(../images/banner/banner1.png);
+}
+
+.header-item
+{
+    background-size: cover;
+    text-align: right;
+    margin-right: 120px;
+    padding-top: 300px;
+}
+.btn-primary {
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 64px;
+    padding: 18px 35px;
+}
