@@ -1,5 +1,3 @@
-
-
 .header-class {
     height: 800px;
     width: 1350px;
@@ -34,15 +32,14 @@
     padding: 18px 35px;
 }
 
-.banner-section
-{
+.banner-section {
     display: flex;
     margin: 180px 200px;
     justify-content: space-around;
     gap: 87px;
 }
 
-ul{
+ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
@@ -53,27 +50,14 @@ ul li:before {
     color: green;
 }
 
-.banner-text-details
-{
+.banner-text-details {
     margin-top: 200px;
 }
 
-.plannings
-{
+.plannings {
     margin-bottom: 40px;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .about-info-container {
     display: flex;
@@ -101,12 +85,40 @@ ul li:before {
     border-radius: 55px;
 }
 
-.skill-title
-{
+.skill-title {
     font-weight: bold;
     padding: 20px 10px;
 }
-.skill-description
-{
 
+.skill-description {
+    padding: 0px 10px;
+}
+
+.motivation-banner {
+    margin: 100px 230px;
+}
+
+.motivation-section {
+    height: 300px;
+    width: auto;
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+}
+
+.motivation-title
+{
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-right: 500px;
+}
+.motivation-call
+{
+    padding-left: 60px;
+}
+.btn-secondary {
+    color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    background: white;
+    height: auto;
+    padding: 18px 35px;
 }
